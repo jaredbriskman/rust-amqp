@@ -25,7 +25,7 @@ url = "1.2"
 amq-proto = "0.1.0"
 
 [dependencies.openssl]
-version = "0.7.*"
+version = "0.9.*" #To fix multile openssl dependency conflicts
 optional = true
 features = ["tlsv1_1", "tlsv1_2"]
 
